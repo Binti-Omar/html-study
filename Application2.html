@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h3>Job Application Form</h3>
     <form action="">
         <fieldset>
-        <legend>Personal Details</legend>
-        <label for="fullname">Full Name*</label><br>
-        <input type="text" required name="first_name" id="fullname"><br><br>
-        <label for="email">Email*</label><br>
-        <input type="email" required name="email" id="email"><br><br>
-        <label for="phonenumber">Phone Number*</label><br>
-        <input type="tel" required name="phone" placeholder="10_digit number" id="phonenumber"><br><br>
-        <label for="">Date of Birth*</label><br>
-        <input type="date" required name="dob"><br><br>
-        <label for="">Gender*</label><br>
-        <input type="radio" name="gender">
-        <label for="">Male</label>
-        <input type="radio" name="gender">
-        <label for="">Female</label>
-        <input type="radio" name="gender">
-        <label for="">Other</label><br><br>
+            <legend>Personal Details</legend>
+            <label for="fullname">Full Name*</label><br>
+            <input type="text" required name="first_name" id="fullname"><br><br>
+            <label for="email">Email*</label><br>
+            <input type="email" required name="email" id="email"><br><br>
+            <label for="phonenumber">Phone Number*</label><br>
+            <input type="tel" required name="phone" placeholder="10_digit number" id="phonenumber"><br><br>
+            <label for="">Date of Birth*</label><br>
+            <input type="date" required name="dob"><br><br>
+            <label for="">Gender*</label><br>
+            <input type="radio" name="gender">
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Female</label>
+            <input type="radio" name="gender">
+            <label for="">Other</label><br><br>
         </fieldset>
         <fieldset>
-        <legend>Address Details</legend>
-        <label for="">Country*</label><br>
-        <select name="Country" id="" >
-            <option value="">Select country</option>
-            <option value="india">India</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-            <option value="Canada">Canada</option>
-            <option value="Australia">Australia</option>
-            <option value="kenya">Kenya</option>
-            <option value="uganda">Uganda</option>
-        </select>
-        <br><br>
-        <label for="">City*</label><br>
-        <input type="text" required name="city"><br><br>
-        <label for="">Postal Code*</label><br>
-        <input type="text" required name="postal_code"><br><br>
+            <legend>Address Details</legend>
+            <label for="">Country*</label><br>
+            <select name="Country" id="">
+                <option value="">Select country</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+            </select>
+            <br><br>
+            <label for="">City*</label><br>
+            <input type="text" required name="city"><br><br>
+            <label for="">Postal Code*</label><br>
+            <input type="text" required name="postal_code"><br><br>
         </fieldset>
         <fieldset>
-        <legend>Qualification</legend>
-        <label for="">Higher Qualification*</label><br>
-        <select name="Qualification" id="">
-            <option value="">Select qualification</option>
-            <option value="bachelors">Bachelor's Degree</option>
-            <option value="masters">Master's Degree</option>
-            <option value="phd">PhD</option>
-            <option value="diploma">Diploma</option>
-            <option value="certificate">Certificate</option>
-        </select><br><br>
-        <label for="">Upload resume(PDF only)*</label>
-        <input type="file" required name="resume" accept=".pdf"><br><br>
-        <label for="">Years of Experience*</label><br>
-        <input type="number" required name="experience" min="0" max="50"><br><br>
-        <label for="">Skills (select at least one)</label><br>
-        <input type="checkbox" name="skills">
-        <label for="">HTML</label>
-        <input type="checkbox" name="skills">
-        <label for="">CSS</label>
-        <input type="checkbox" name="skills">
-        <label for="">JavaScript</label>
-        <input type="checkbox" name="skills">
-        <label for="">Python</label>
-        <input type="checkbox" name="skills">
-        <label for="">SQL</label><br><br>
+            <legend>Qualification</legend>
+            <label for="">Higher Qualification*</label><br>
+            <select name="Qualification" id="">
+                <option value="">Select qualification</option>
+                <option value="bachelors">Bachelor's Degree</option>
+                <option value="masters">Master's Degree</option>
+                <option value="phd">PhD</option>
+                <option value="diploma">Diploma</option>
+                <option value="certificate">Certificate</option>
+            </select><br><br>
+            <label for="">Upload resume(PDF only)*</label>
+            <input type="file" required name="resume" accept=".pdf"><br><br>
+            <label for="">Years of Experience*</label><br>
+            <input type="number" required name="experience" min="0" max="50"><br><br>
+            <label for="">Skills (select at least one)</label><br>
+            <input type="checkbox" name="skills">
+            <label for="">HTML</label>
+            <input type="checkbox" name="skills">
+            <label for="">CSS</label>
+            <input type="checkbox" name="skills">
+            <label for="">JavaScript</label>
+            <input type="checkbox" name="skills">
+            <label for="">Python</label>
+            <input type="checkbox" name="skills">
+            <label for="">SQL</label><br><br>
         </fieldset>
         <fieldset>
-        <legend>Availability</legend>
-        <label for="">Preferred Job Role*</label><br>
-        <input type="text" name="job_role"><br><br>
-        <label for="">Willing to relocate*</label><br>
-        <input type="radio" name="relocate">
-        <label for="">Yes</label>
-        <input type="radio" name="relocate">
-        <label for="">No</label><br><br>
-        <label for="">Expected Start Date*</label><br>
-        <input type="date" required name="start_date"><br><br>
-        <label for="">Expected Salary(KES)*</label><br>
-        <input type="number" required name="salary" min="0"><br><br>
-        <input type="submit" value="Submit Application">
-        <input type="reset" value="Reset Form">
+            <legend>Availability</legend>
+            <label for="">Preferred Job Role*</label><br>
+            <input type="text" name="job_role"><br><br>
+            <label for="">Willing to relocate*</label><br>
+            <input type="radio" name="relocate">
+            <label for="">Yes</label>
+            <input type="radio" name="relocate">
+            <label for="">No</label><br><br>
+            <label for="">Expected Start Date*</label><br>
+            <input type="date" required name="start_date"><br><br>
+            <label for="">Expected Salary(KES)*</label><br>
+            <input type="number" required name="salary" min="0"><br><br>
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Form">
         </fieldset>
 
 
     </form>
 </body>
+
 </html>
